@@ -1,0 +1,37 @@
+/* Header.css 
+.open {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin-right: 20px;
+}
+
+img {
+  height: 70px;
+  width: 200px;
+}
+
+*/
+.open {
+  background-color: #4285f4;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 70px;
+  width: 200px;
+  margin-left: 10px;
+}

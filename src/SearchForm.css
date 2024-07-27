@@ -1,0 +1,132 @@
+/*
+.text {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+#word {
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(80% - 25px);
+}
+
+.button {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+#searchButton:hover {
+  background-color: #357ae8;
+}
+
+*/
+.text {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  height: 15vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#word {
+  font-size: 30px;
+  padding: 10px;
+  margin-right: 10px; /* Add margin to create space between input and buttons */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Set width to 100% to use available space */
+  height: 70px;
+  box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước tổng thể */
+  text-align: left; /* Đảm bảo văn bản nhập vào bắt đầu từ bên trái */
+  line-height: 1.5; /* Đặt chiều cao dòng để căn chỉnh placeholder và văn bản */
+  display: flex; /* Sử dụng flexbox để căn chỉnh văn bản */
+  align-items: flex-start; 
+  max-width: calc(100% - 175px); /* Optional: Set a max width for the input */
+}
+
+#word::placeholder {
+  color: #aaa; /* Màu sắc của placeholder */
+  opacity: 1; /* Đảm bảo placeholder không bị mờ */
+  text-align: left; /* Đảm bảo placeholder căn trái */
+  line-height: 1.5; /* Đảm bảo placeholder căn chỉnh đúng vị trí */
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  height: 70px;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+  background-color: #357ae8;
+}

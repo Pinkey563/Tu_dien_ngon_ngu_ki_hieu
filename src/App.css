@@ -1,0 +1,48 @@
+/* App.css 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px; 
+  font-size: 2rem;
+}
+
+input[type="checkbox"]:not([value="Real"]) {
+  margin-left: 20px;
+}
+
+video,
+iframe {
+  width: 100%; 
+  height: calc(80% - 10px); 
+  border: none; 
+}
+
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
